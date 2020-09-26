@@ -2,14 +2,14 @@ package com.example.cw6;
 
 public class Movie {
     private String title;
-    private String mainactor;
+    private String  Mainactor;
     private Double movieRate;
     private int pgRate;
     private String genre;
 
-    public Movie(String title, String mainactor, Double movieRate, int pgRate, String genre) {
+    public Movie(String title, String Mainactor, Double movieRate, int pgRate, String genre) {
         this.title = title;
-        this.mainactor = mainactor;
+        this.Mainactor = Mainactor;
         this.movieRate = movieRate;
         this.pgRate = pgRate;
         this.genre = genre;
@@ -24,11 +24,11 @@ public class Movie {
     }
 
     public String getMainactor() {
-        return mainactor;
+        return Mainactor;
     }
 
     public void setMainactor(String mainactor) {
-        this.mainactor = mainactor;
+        this.Mainactor = mainactor;
     }
 
     public Double getMovieRate() {
